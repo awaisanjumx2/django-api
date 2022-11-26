@@ -4,7 +4,7 @@ from .common import *
 DEBUG = False
 SECRET_KEY = os.environ['SECRET_KEY']
 
-ALLOWED_HOSTS = ['mybuy-prod.herokuapp.com']
+ALLOWED_HOSTS = ['djangowebapi.azurewebsites.net']
 
 DATABASES = {
     'default': {
